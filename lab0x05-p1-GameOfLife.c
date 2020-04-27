@@ -133,10 +133,11 @@ int main(int argc, char *argv[])
     
     ///////////////////////////////////
     while(1){
-    printf("-----------------------------\n");
+    printf("-----------------\n");
     printGameofLife(golGrid,useRows,useCols);
     updateGameOfLife(golGrid,useRows,useCols);
     usleep(250000);
+	printf("-----------------\n");
     system("clear");
 
     }
